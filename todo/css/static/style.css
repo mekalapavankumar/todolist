@@ -1,0 +1,70 @@
+/* todo_app/static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.add-task-btn,
+.edit-task-btn,
+.delete-task-btn,
+.back-btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task-btn:hover,
+.edit-task-btn:hover,
+.delete-task-btn:hover,
+.back-btn:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.save-btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #219d52;
+}
